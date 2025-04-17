@@ -1,9 +1,9 @@
 import time
 from app.ores import Ore
 
-class SchedulerFCFS:
+class SchedulerSJF:
     def __init__(self, ores):
-        self.queue = ores
+        self.queue = sorted(ores, key=lambda ore: ore.dificulty)
 
     def processar(self):
         tempo_espera = 0
