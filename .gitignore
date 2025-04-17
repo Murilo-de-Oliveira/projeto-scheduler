@@ -1,0 +1,38 @@
+# Ignorar arquivos de ambiente virtual
+venv/
+env/
+.env
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de configuração do VSCode
+.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Ignorar arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de teste
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignorar arquivos de documentação
+docs/_build/
+
+# Ignorar arquivos de configuração do FastAPI/Uvicorn
+.uvicorn.log
